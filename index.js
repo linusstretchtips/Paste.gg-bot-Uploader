@@ -4,8 +4,8 @@ const client = new Discord.Client();
 const PasteGG = require("paste.gg");
 const mimeType = require('mime-types');
 const axios = require("axios");
-const add = require('date-fns/add')
-const format = require('date-fns/format')
+const add = require('date-fns/add');
+const format = require('date-fns/format');
 
 const {
     discord_bot_token,
@@ -19,10 +19,10 @@ const {
     pastegg_description,
     pastegg_file_name,
     pastegg_visability
-} = require('./config')
+} = require('./config');
 
 const contentTypes = ['application/json', 'text/plain', 'text/yaml'];
-const pasteGG = new PasteGG(pastegg_secret_key)
+const pasteGG = new PasteGG(pastegg_secret_key);
 
 //Tell console were up and running
 client.on('ready', () => {
