@@ -1,0 +1,32 @@
+// IMPORTANT
+const discord_bot_token = ""; //your bot token
+const pastegg_secret_key = ""; //leave empty if you want the post to be annonymous. Generate a key here, https://paste.gg/account/keys
+
+//messages
+const message_embed_colour = "#1abc9c";
+const message_embed_title = "Auto Upload";
+const message_description = "Hey! Next time please upload your attatchment to paste.gg! Here is the uploaded file.`";
+const message_expiration = " The paste will expire on the ";
+const message_error_colour = "#ff1100";
+const message_error = "Oops... It looks like there was an error while uploading to paste.gg. Please try again later!";
+
+//paste.gg info
+const pastegg_title = "Auto Upload";
+const pastegg_description = "Automatic Upload made by ScreamingBot";
+const pastegg_file_name = "file.txt"
+const pastegg_visability = "unlisted"; //Available args: public, unlisted or private. Private posts will only allow the authed user to see it (also requires a paste.gg key/account) 
+
+module.exports = {
+    discord_bot_token,
+    pastegg_secret_key,
+    message_embed_colour,
+    message_embed_title,
+    message_description,
+    message_expiration,
+    message_error_colour,
+    message_error,
+    pastegg_title,
+    pastegg_description,
+    pastegg_file_name,
+    pastegg_visability
+}
