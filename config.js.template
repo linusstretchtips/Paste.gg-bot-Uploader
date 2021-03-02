@@ -12,7 +12,7 @@ const message_error = "Oops... It looks like there was an error while uploading 
 
 //paste.gg info
 const pastegg_title = "Auto Upload";
-const pastegg_description = "Automatic Upload made by ScreamingBot";
+const pastegg_description = "Automatic Upload made by Paste Bot!";
 const pastegg_file_name = "file.txt"
 const pastegg_visability = "unlisted"; //Available args: public, unlisted or private. Private posts will only allow the authed user to see it (also requires a paste.gg key/account) 
 
