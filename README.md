@@ -1,5 +1,5 @@
 # Paste.gg-bot-Uploader
-A discord bot that uplaods the content of a file to paste.gg
+A discord bot that uploads the content of a file to paste.gg
 
 ## Setup
 1) Clone the repo `git clone https://github.com/linusstretchtips/Paste.gg-bot-Uploader.git`
