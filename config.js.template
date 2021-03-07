@@ -5,14 +5,23 @@ const pastegg_secret_key = ""; //leave empty if you want the post to be anonymou
 //messages
 const message_embed_colour = "#1abc9c";
 const message_embed_title = "Auto Upload";
+
 const message_description = "Hey! Next time please upload your attachment to paste.gg! Here is the uploaded file. ";
 const message_expiration = " \nThe paste will expire on the ";
+
+const message_description = "Hey! Next time please upload your attachment to paste.gg! Here is the uploaded file.`";
+const message_expiration = " The paste will expire on the ";
+
 const message_error_colour = "#ff1100";
 const message_error = "Oops... It looks like there was an error while uploading to paste.gg. Please try again later!";
 
 //paste.gg info
 const pastegg_title = "Auto Upload";
+
 const pastegg_description = "Automatic Upload";
+
+const pastegg_description = "Automatic Upload made by Paste Bot!";
+
 const pastegg_file_name = "file.txt"
 const pastegg_visability = "unlisted"; //Available args: public, unlisted or private. Private posts will only allow the authed user to see it (also requires a paste.gg key/account) 
 
