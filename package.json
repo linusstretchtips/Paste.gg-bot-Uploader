@@ -1,0 +1,26 @@
+{
+  "name": "paste.gg-uploader",
+  "version": "1.0.0",
+  "description": "A discord bot that uploads the content of a file to paste.gg",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linusstretchtips/Paste.gg-bot-Uploader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linusstretchtips/Paste.gg-bot-Uploader/issues"
+  },
+  "homepage": "https://github.com/linusstretchtips/Paste.gg-bot-Uploader#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "date-fns": "^2.19.0",
+    "discord.js": "^12.5.1",
+    "mime-types": "^2.1.29",
+    "paste.gg": "^1.0.3"
+  }
+}

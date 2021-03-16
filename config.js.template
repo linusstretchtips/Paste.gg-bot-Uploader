@@ -1,5 +1,5 @@
 // IMPORTANT
-const discord_bot_token = ""; //your bot token
+const discord_bot_token = "token here"; //your bot token
 const pastegg_secret_key = ""; //leave empty if you want the post to be anonymous. Generate a key here, https://paste.gg/account/keys
 
 //messages
